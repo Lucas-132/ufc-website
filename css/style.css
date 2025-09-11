@@ -1,9 +1,17 @@
 @import url(./reset.css);
-@import url(https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap);
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
 
 a{
     color: white;
     text-decoration: none;
+}
+
+h2{
+    color: white;
+    font-weight:900;
+    font-size: 40px;
+    font-family: "archivo black";
 }
 
 body{
@@ -18,7 +26,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width:90%;
+    width:85%;
 }
 
 /* HEADER */
@@ -61,26 +69,59 @@ header{
 footer{
     background-color: #ff1919;
     width: 100%;
-    height: 300px;
+    height: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .footer-box{
-    
     display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 80%; 
+}
+
+.footer-top{
+    font-size: 20px;
+    display:flex;
+    width:100%;
+    height:33.3%;
+    flex-direction: row;
     justify-content: space-between;
-    
-    height: 90%;
-    
 }
 
 .footer-top-left{
-    display: flex;
+    display:flex;
     flex-direction: column;
+    gap:5px;
+    
+}
+
+.footer-top-right{
+    display:flex;
+    gap:70px;
+    height:100%;
 }
 
 #footer-logo{
-    width: 10%;
+    width: 20%;
+}
+
+.footer-middle{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    border: white;
+    border-style: double;
+    width:100%;
+    height:33.3%;
+}
+
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 33.3%;
+    align-items: flex-end;
 }
