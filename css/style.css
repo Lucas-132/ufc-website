@@ -24,6 +24,7 @@ body{
 /* HEADER */
 header{
     position:sticky;
+    Top: 0;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -50,4 +51,36 @@ header{
 #search-button{
     width: 3%;
     height:3%;
+}
+
+#poster{
+    height:700px;
+}
+
+/* FOOTER */
+footer{
+    background-color: #ff1919;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-box{
+    
+    display: flex;
+    justify-content: space-between;
+    
+    height: 90%;
+    
+}
+
+.footer-top-left{
+    display: flex;
+    flex-direction: column;
+}
+
+#footer-logo{
+    width: 10%;
 }
