@@ -7,20 +7,23 @@ a{
 }
 
 body{
+    display: flex;
+    justify-content: center;
     font-family:lato;
     background-color:#360707;
+    margin:0;
 }
 
 .main-page{
     display: flex;
     justify-content: center;
+    width:90%;
 }
 
 /* HEADER */
 header{
-    position: fixed;
+    position:sticky;
     display: flex;
-    flex-flow:row;
     justify-content: space-around;
     align-items: center;
     background-color: #292929;
@@ -45,4 +48,5 @@ header{
 
 #search-button{
     width: 3%;
+    height:3%;
 }
