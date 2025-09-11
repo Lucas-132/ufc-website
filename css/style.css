@@ -1,6 +1,8 @@
 @import url(./reset.css);
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url(./header.css);
+@import url(./footer.css);
 
 a{
     color: white;
@@ -27,101 +29,10 @@ body{
     flex-direction: column;
     justify-content: center;
     width:85%;
+    background-color: #0d0d0d;
 }
 
 /* HEADER */
-header{
-    position:sticky;
-    Top: 0;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: #292929;
-    width:100%;
-    height:80px;
-    gap:2%;
-}
 
-.header-div{
-    display:flex;
-    width:100%;
-    gap:4%;
-}
-
-.header-div.left{
-    justify-content: flex-end;
-}
-
-#header-logo{
-    height: 50%;
-}
-
-#search-button{
-    width: 3%;
-    height:3%;
-}
-
-#poster{
-    height:700px;
-}
 
 /* FOOTER */
-footer{
-    background-color: #ff1919;
-    width: 100%;
-    height: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.footer-box{
-    display: flex;
-    flex-direction: column;
-    width: 80%;
-    height: 80%; 
-}
-
-.footer-top{
-    font-size: 20px;
-    display:flex;
-    width:100%;
-    height:33.3%;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.footer-top-left{
-    display:flex;
-    flex-direction: column;
-    gap:5px;
-    
-}
-
-.footer-top-right{
-    display:flex;
-    gap:70px;
-    height:100%;
-}
-
-#footer-logo{
-    width: 20%;
-}
-
-.footer-middle{
-    display: flex;
-    justify-content:space-around;
-    align-items: center;
-    border: white;
-    border-style: double;
-    width:100%;
-    height:33.3%;
-}
-
-.footer-bottom{
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    height: 33.3%;
-    align-items: flex-end;
-}
