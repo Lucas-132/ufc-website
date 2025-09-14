@@ -1,0 +1,41 @@
+/* BUTTONS */
+.big-rectangle-button{
+    color: white;
+    font-size: 30px;
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+    padding-right: 10%; padding-left: 10%;
+    padding-bottom: 1% ; padding-top: 1%;
+    transition: 0.3s;
+}
+
+.big-rectangle-button:hover{
+    transition: 0.3s;
+    color: #0d0d0d;
+    background-color: white;
+}
+
+.rectangle-button{
+    color: white;
+    font-size: 15px;
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+    padding-right: 5%; padding-left: 5%;
+    padding-bottom: 1% ; padding-top: 1%;
+    transition: 0.3s;
+}
+
+.rectangle-button:hover{
+    transition: 0.3s;
+    color: #0d0d0d;
+    background-color: white;
+}
+
+.line-of-buttons{
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    gap: 16px;
+}
