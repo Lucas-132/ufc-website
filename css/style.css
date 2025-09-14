@@ -1,12 +1,20 @@
 @import url(./reset.css);
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url(./header.css);
 @import url(./footer.css);
 
 a{
     color: white;
     text-decoration: none;
+}
+
+h1{
+    font-family: "Quantico";
+    color: #ff1919;
+    font-weight: bold;
+    font-size: 100px;
 }
 
 h2{
@@ -30,9 +38,50 @@ body{
     justify-content: center;
     width:85%;
     background-color: #0d0d0d;
+    gap:50px;
 }
 
-/* HEADER */
+/* poster-div */
 
+.poster-div{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    justify-content: center;
+}
 
-/* FOOTER */
+.big-rectangle-button{
+    color: white;
+    font-size: 30px;
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+    padding-right: 10%; padding-left: 10%;
+    padding-bottom: 1% ; padding-top: 1%;
+    transition: 0.2s;
+}
+
+.big-rectangle-button:hover{
+    transition: 0.2s;
+    color: #0d0d0d;
+    background-color: white;
+}
+
+.line-of-buttons{
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    gap: 16px;
+}
+
+#poster{
+    height:700px;
+}
+
+/* SECTIONS */
+
+.section-classic{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
