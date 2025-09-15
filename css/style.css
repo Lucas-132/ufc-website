@@ -95,6 +95,10 @@ body{
     cursor:pointer;
 }
 
+.dropdown-event-button:hover{
+    background-image: linear-gradient(to right,#ff1919,#292929);
+}
+
 .dropdown-event-button::after{
     background-image: url('../images/ui/drop-down-arrow.png');
     background-size: 20px 20px;
@@ -102,7 +106,7 @@ body{
     width: 20px; 
     height: 20px;
     content:"";
-    transition: transform 0.3s;
+    transition: transform 0.2s;
 }
 
 .dropdown-event-button--active::after{
