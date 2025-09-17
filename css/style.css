@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('./rectangle-buttons.css');
+@import url(./dropdown.css);
 @import url(./header.css);
 @import url(./footer.css);
 
@@ -11,11 +12,18 @@ a{
     text-decoration: none;
 }
 
+p{
+    color:white;
+    font-family: "Lato";
+    font-size:15px;
+    
+}
+
 h1{
     font-family: "Quantico";
     color: #ff1919;
     font-weight: bold;
-    font-size: 100px;
+    font-size: 80px;
 }
 
 h2{
@@ -30,6 +38,13 @@ h3{
     font-weight:900;
     font-size: 25px;
     font-family: "Quantico";
+}
+
+h4{
+    color: white;
+    font-weight:900;
+    font-size: 20px;
+    font-family: "Lato";
 }
 
 body{
@@ -71,60 +86,35 @@ body{
     gap:20px;
 }
 
-/* DROPDOWN */
-.dropdown-menu{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width:90%;
-}
-
-.dropdown-wrapper{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-
-.dropdown-event-button{
+.centered-content{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content:center;
+}
+
+.colored-margin{
     
-    border-color:#292929; border-width:1px 0px 1px; border-style: solid;
-    padding-bottom: 25px; padding-top: 25px;
-    cursor:pointer;
 }
 
-.dropdown-event-button:hover{
-    background-image: linear-gradient(to right,#ff1919,#292929);
-}
+/* UFC Store */
 
-.dropdown-event-button::after{
-    background-image: url('../images/ui/drop-down-arrow.png');
-    background-size: 20px 20px;
-    display: inline-block;
-    width: 20px; 
-    height: 20px;
-    content:"";
-    transition: transform 0.2s;
-}
-
-.dropdown-event-button--active::after{
-    transform:rotate(-180deg);
-}
-
-.dropdown-event-button-image{
-    width:6%;
-}
-
-.dropdown-answer{
-    display: none;
-    transition:all 0.5s;
-    width:100%;
-}
-
-.dropdown-answer--visible{
-    transition:all 0.5s;
+.store{
     display:flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+.store-row{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+}
+
+.shop-card-centered{
+    width:400px;
+    display: flex;
+    flex-direction: column;
+    background-color: #292929;
+    padding:10px;
+}
+
