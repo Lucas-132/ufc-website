@@ -92,8 +92,15 @@ body{
     justify-content:center;
 }
 
-.colored-margin{
-    
+.colored-shop-card-margin{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:445px;
+}
+
+.gray{
+    background-color: #292929;
 }
 
 /* UFC Store */
@@ -114,7 +121,7 @@ body{
     width:400px;
     display: flex;
     flex-direction: column;
-    background-color: #292929;
     padding:10px;
+    border-color: white; border-style: solid; border-width: 2px;
 }
 
